@@ -8,9 +8,11 @@ public interface Weblet {
 
   Map<String, Weblet> getChildren();
 
-  void processRequest(WebletRequest request, String webletId);
+  WebletIncomingEdge getIncomingEdge();
 
-  String render(WebletRequest request, Writer writer, Locale locale, String id);
+  void processRequest(WebletRequest request);
+
+  String render(WebletRequest request, Writer writer, Locale locale);
 
   void serveResource(WebletRequest request, WebletResponse response);
 }
