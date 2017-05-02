@@ -19,9 +19,9 @@ public class WebletIncomingEdge {
    */
   public final Weblet parent;
 
-  public WebletIncomingEdge(final String key, final Weblet parent) {
-    this.key = key;
+  public WebletIncomingEdge(final Weblet parent, final String key) {
     this.parent = parent;
+    this.key = key;
   }
 
 }
