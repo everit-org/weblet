@@ -10,7 +10,7 @@ public interface Weblet {
 
   WebletIncomingEdge getIncomingEdge();
 
-  void processAction(WebletRequest request);
+  void preRender(WebletRequest request);
 
   String render(WebletRequest request, Writer writer, Locale locale);
 

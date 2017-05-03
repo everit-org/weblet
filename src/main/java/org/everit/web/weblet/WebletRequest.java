@@ -340,6 +340,8 @@ public interface WebletRequest {
    */
   Principal getUserPrincipal();
 
+  WebletURIGenerator getWebletURIGenerator();
+
   /**
    * Checks whether the request was made using a secure channel, e.g. using https.
    *
