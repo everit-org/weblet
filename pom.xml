@@ -27,13 +27,13 @@
   </parent>
 
   <groupId>org.everit.web</groupId>
-  <artifactId>org.everit.web.weblet</artifactId>
-  <version>3.0.2</version>
+  <artifactId>org.everit.web.weblet.api</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
 
   <packaging>bundle</packaging>
 
   <name>Everit - Weblet</name>
-  <description>A very minimal framework to be able to implement server-side web components.  </description>
+  <description>A KISS web framework to be able to implement server-side web components.</description>
 
   <properties>
     <projectpath>weblet</projectpath>
